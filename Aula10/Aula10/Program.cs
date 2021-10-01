@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Empresa.Models;
+using System;
 
 namespace Aula10
 {
@@ -6,7 +7,15 @@ namespace Aula10
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var cliente = new Cliente 
+            {
+                Id = 1,
+                Nome = "Homer Simpson",
+                Email = "homer@mail.com",
+                Telefone = "23456987"
+            };
+
+            Console.WriteLine(cliente);
         }
     }
 }

@@ -13,5 +13,10 @@ namespace Empresa.Models
         public string Email { get; set; }
         public string Telefone { get; set; }
 
+        public override string ToString()
+        {
+            return $"({Id}) - {Nome} {Email} {Telefone}";
+        }
+
     }
 }
