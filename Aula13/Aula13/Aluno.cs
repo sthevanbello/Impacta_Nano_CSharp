@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula13
 {
-    public class Aluno:CadastroBase
+    public class Aluno : CadastroBase
     {
         public string Matricula { get; set; }
     }
